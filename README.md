@@ -9,3 +9,4 @@ So i decide to write a program to find out his idea,and it's the start point of 
 * Then we try to cut down the time complexity to the O(nloglogn) with the Sieve of Eratosthenes.
 ### Version 2.0
 * After finding out a new method---the Sieve of Eratosthenes,we used it to loop a list of number and then give the every number a expression.
+* **Result**:the Sieve of Eratosthenes have a nice efficiency of finding out the prime number in the loop list.
