@@ -7,3 +7,5 @@ So i decide to write a program to find out his idea,and it's the start point of 
 ### Version 1.0
 * We go try to find out the prime number with the O(n^2) time complexity firstly.
 * Then we try to cut down the time complexity to the O(nloglogn) with the Sieve of Eratosthenes.
+### Version 2.0
+* After finding out a new method---the Sieve of Eratosthenes,we used it to loop a list of number and then give the every number a expression.

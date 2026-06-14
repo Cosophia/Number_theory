@@ -16,6 +16,7 @@ def is_prime(num):
     return True
 
 
+
 def prime_block(num, prime_lis):
     for val in range(2, num + 1):
         if is_prime(val) and num % val == 0:
@@ -30,17 +31,8 @@ def prime_block(num, prime_lis):
                     break
                 num, prime_lis = prime_block(num, prime_lis)
             continue
-        # else:
-        # if is_prime(number):
-        #     prime_list.append(number)
-        #     break
-        # continue
     return 0,[]
-
-
-
-
-
+# 1. 单值
 # number = int(input("A number:")) # 输入
 # expression = f"{number} = " # 表达式前缀
 # prime_block(number, prime_list)
@@ -51,6 +43,7 @@ def prime_block(num, prime_lis):
 # if expression[-3:]==" * ":
 #     expression = expression.rstrip(" * ")
 # print(expression)
+# 批量值
 number_list = list(range(1,10001))
 for number in number_list:
     prime_list = []
