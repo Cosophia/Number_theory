@@ -1,4 +1,4 @@
-# Number_theroy
+# Number_theory
 ## Introduction:
 Actually,i do not know how to or where to start learning this interesting theory in Math.<br>
 Luckily,the book named "Millennium Problems" talking about  the Riemann's  Hypothesis,which mentions the Euclid's idea of the prime number.<br>
